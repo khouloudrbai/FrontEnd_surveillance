@@ -11,7 +11,7 @@ from PyQt6.QtGui import QPixmap
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Multi-Interface App")
+        self.setWindowTitle("Surveillance App")
         self.resize(800, 600)
         self.setStyleSheet("""
     QWidget {
